@@ -1,0 +1,69 @@
+/* HTML 5 */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 62.5%;
+  margin: 0 auto;
+  width: 80em;
+  background-image: url(imagens/fundo_ok.png);
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 1.6em;
+    line-height: 1.125;
+}
+
+p, li {
+  font-size: 1.3em;
+  line-height: 1.385;
+}
+
+a { text-decoration: none; color: black; }
+
+a:hover { text-decoration: none; color: #86bff5; }
+
+a:visited{text-decoration: none; color: black;}
+
+p.contact {
+  font-weight: bold;
+  padding: 0 15px;
+  text-align: right;
+}
+
+/* Panel */
+
+#contact_panel {
+  background-color: black;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  color: #EBEBEB;
+  margin-bottom: 0px;
+  /*visibility: hidden;*/
+}
+
+#contact_panel a { color: #EBEBEB; }
+
+#contact_panel a:hover { color: #EBEBEB; }
+
+div.vcard {
+  overflow: hidden;
+  padding: 18px 15px;
+}
+
+.vcard div {
+  float: left;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.vcard .trigger {
+  cursor: pointer;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.vcard .trigger:after { content: '  [X]'; color: #EBEBEB; }
+
+div.adr { text-align: right; }
