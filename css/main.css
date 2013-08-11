@@ -339,7 +339,20 @@ text-align: center;
     height: 200px;
     background: #2c3e50;
 }
-
+.info-foo{
+    margin-left: 10%;
+}
+.title-foo{
+    font-size: 1em;
+}
+.fomento,
+.apoio,
+.realiza,
+.social{
+    width: 20%;
+    color:#fbfbfb;
+    float: left;
+}
 
 
 /*MEDIAS QUERIES*/
