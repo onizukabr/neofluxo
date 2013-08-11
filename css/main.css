@@ -117,13 +117,13 @@ textarea {
 
 .head{
         background-color: #ecf0f1;
-        height: 200px;
+        height: 220px;
         width: 100%;
 }
 .head img {
     display: block;
     margin: 0 auto;
-    padding-top: 28px;
+    padding-top: 48px;
 }
 
 .head h1{
@@ -146,7 +146,7 @@ textarea {
     width: 100%;
 }
 .menu ul{
-    margin-left: 10%;
+    margin-left: 9%;
 }
 .item-menu{
     display: inline-block;
@@ -163,10 +163,15 @@ textarea {
 /*Main*/
 
 #main{
-    height: 400px;
+    height: 320px;
     width: 96%;
 }
-.boxes{
+#main2{
+    height: 180px;
+    width: 96%;
+}
+.boxes,
+.boxes2{
     width: 20%;
     height: 250px;
     background: #3498db;
@@ -175,7 +180,12 @@ textarea {
     display: block;
     color: #fbfbfb;
 }
-.boxes:hover{
+.boxes2{
+    width: 20%;
+    height: 120px;
+}
+.boxes:hover,
+.boxes2:hover{
  background: #2980b9;
  color:#bdc3c7;
  -webkit-transition: all 0.5s linear;
@@ -230,20 +240,104 @@ textarea {
     content: "\e005";
 }
 
+.titulo-pagina {
+text-align: center;
+}
+.box-project,
+.box-contexto,
+.box-team{
+    width: 100%;
+    height: auto;
+    background: #16a085;
+    padding-bottom: 20px;
+    float: left;
+}
+.box-project{
+    background:#95a5a6;
+    margin-top: -10px;
+}
+.box-team{
+    background: #2980b9;
+}
 
-
-
-
+.box-text,
+.box-text2{
+    margin-left: 50px;
+    width: 70%;
+    float:left;
+}
+.box-text2{
+    width: 90%;
+}
+.box-img{
+    width: 20%;
+    float:left;
+}
 .title{
-    color: #88a4bc;
+    padding-top: 20px;
+    color: #2c3e50;
+}
+.title2{
+    font-size: 1.5em;
 }
 
 .text{
-    color: #666;
+    color: #fbfbfb;
+    text-align: justify;
 }
-.box-project{
-    margin-left: 5%;
-    width: 40%;
+.text-proj{
+    color:#2c3e50;
+    text-align: justify;
+}
+.text-proj span{
+    color: #fbfbfb;
+    font-style: italic;
+}
+.link-text{
+    color: #2980b9;
+}
+.img{
+    margin-left: -50px;
+    margin-top: 90px;
+    width: 150%;
+}
+.img2{
+    margin-top: 190px;
+}
+
+.text-membro{
+    font-size: 0.9em;
+    color: #fbfbfb;
+    text-align: justify;
+}
+.membros{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.ft-membro{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.funcao{
+    font-size: 1em;
+    color: #ecf0f1;
+    margin-bottom: -25px;
+}
+.nome{
+    font-size: 1.5em;
+    color: #2c3e50;
+}
+
+.footer{
+    float: left;
+    width: 100%;
+    height: 200px;
+    background: #2c3e50;
 }
 
 
@@ -260,17 +354,50 @@ textarea {
 .head h1{
     font-size: 1em;
 }
-.boxes{
+.boxes,
+.boxes2{
     clear: both;
     width: 68%;
     margin-left: 32px;
     margin-right: 0;
     margin-bottom: 10px;
 }
-
+.ft-membro{
+    float: none;
+    clear: both;
+    margin-right: 37px;
+    margin-bottom: -10px;
+    margin-top: 0px;
+}
+.text-membro{
+    text-align: left;
+}
+.nome{
+    font-size: 1em;
+}
+.tela-menor{
+    font-size: 0.5em !important;
+}
+.box-text2 {
+width: 70%;
+}
+.title{
+    width: 70%;
+}
+.title2{
+    width: 100%;
+}
+.img {
+margin-left: 0px;
+margin-top: 0px;
+width: 440%;
+}
+#main2 {
+height: 500px;
+width: 96%;
 }
 
-
+}
 
 /* ==========================================================================
    Helper classes
