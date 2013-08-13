@@ -22,6 +22,17 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'moon2';
+    src:url('fonts/moon2.eot');
+    src:url('fonts/moon2.eot?#iefix') format('embedded-opentype'),
+        url('fonts/moon2.woff') format('woff'),
+        url('fonts/moon2.ttf') format('truetype'),
+        url('fonts/moon2.svg#moon2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*FontFace*/
 
 
@@ -359,6 +370,32 @@ text-align: center;
 }
 
 
+.box-publi{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.back{
+    font-size: 3em;
+    text-decoration: none;
+}
+.back.icons-arrow-left-alt1 {
+width: 6%;
+float: right;
+}
+.icons-arrow-left-alt1 {
+    font-family: 'moon2';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.icons-arrow-left-alt1:before {
+    content: "\e001";
+}
 /*MEDIAS QUERIES*/
 
 @media (max-width: 480px) {
