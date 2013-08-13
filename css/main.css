@@ -240,11 +240,11 @@ textarea {
     content: "\e005";
 }
 
-.titulo-pagina {
+.title-page {
 text-align: center;
 }
 .box-project,
-.box-contexto,
+.box-context,
 .box-team{
     width: 100%;
     height: auto;
@@ -305,30 +305,30 @@ text-align: center;
     margin-top: 190px;
 }
 
-.text-membro{
+.text-member{
     font-size: 0.9em;
     color: #fbfbfb;
     text-align: justify;
 }
-.membros{
+.members{
     width: 100%;
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
 
 }
-.ft-membro{
+.ft-member{
     float: left;
     margin-right: 20px;
     margin-bottom: 30px;
     margin-top: 20px;
 }
-.funcao{
+.func{
     font-size: 1em;
     color: #ecf0f1;
     margin-bottom: -25px;
 }
-.nome{
+.name{
     font-size: 1.5em;
     color: #2c3e50;
 }
@@ -379,17 +379,17 @@ text-align: center;
     margin-right: 0;
     margin-bottom: 10px;
 }
-.ft-membro{
+.ft-member{
     float: none;
     clear: both;
     margin-right: 37px;
     margin-bottom: -10px;
     margin-top: 0px;
 }
-.text-membro{
+.text-member{
     text-align: left;
 }
-.nome{
+.name{
     font-size: 1em;
 }
 .tela-menor{
