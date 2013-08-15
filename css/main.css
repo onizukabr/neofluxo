@@ -51,6 +51,9 @@ body {
     line-height: 1.4;
 }
 
+iframe{
+    border: none;
+}
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -166,11 +169,34 @@ textarea {
 .links-menu{
     font-size:0.8em;
     color:#fbfbfb;
+     -moz-transition: all 0.5s linear;
+     -ms-transition: all 0.5s linear;
+     -o-transition: all 0.5s linear;
+     transition: all 0.5s linear;
 }
 .links-menu:hover{
     color:#3498db;
     text-decoration: none;
+     -moz-transition: all 0.5s linear;
+     -ms-transition: all 0.5s linear;
+     -o-transition: all 0.5s linear;
+     transition: all 0.5s linear;
 }
+
+/*back menu*/
+
+.back-menu{
+    position: fixed;
+    display: absolute;
+    right: 0px;
+    top:430px;
+    background: #2c3e50;
+    width: 70px;
+    height: 45px;
+    padding-top: 15px;
+}
+
+
 /*Main*/
 
 #main{
@@ -180,6 +206,11 @@ textarea {
 #main2{
     height: 180px;
     width: 96%;
+}
+#main3{
+    height: auto;
+    width: 96%;
+    padding-bottom: 50px;
 }
 .boxes,
 .boxes2{
@@ -209,13 +240,16 @@ textarea {
     margin-left: 8%;
 }
 
-.sub-title{
+.sub-title,
+.sub-title2{
     font-size: 1.3em;
     font-family: Arial;
-
     margin: 40px 0px 0px 18px;
     text-align: center;
     width: 83%;
+}
+.sub-title2{
+    text-align: left;
 }
 .icons-newspaper, .icons-book, .icons-stats, .icons-earth, .icons-stats-2, .icons-books {
     font-family: 'moon';
@@ -256,7 +290,8 @@ text-align: center;
 }
 .box-project,
 .box-context,
-.box-team{
+.box-team,
+.box-visualization {
     width: 100%;
     height: auto;
     background: #16a085;
@@ -269,6 +304,9 @@ text-align: center;
 }
 .box-team{
     background: #2980b9;
+}
+.box-visualization{
+    background: #ecf0f1;
 }
 
 .box-text,
@@ -383,7 +421,7 @@ text-align: center;
 width: 6%;
 float: right;
 }
-.icons-arrow-left-alt1 {
+.icons-arrow-up-alt1, .icons-arrow-left-alt1, .icons-arrow-left-alt2, .icons-arrow-right-alt1, .icons-arrow-down-alt1 {
     font-family: 'moon2';
     speak: none;
     font-style: normal;
@@ -392,10 +430,77 @@ float: right;
     text-transform: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
+         -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+     -ms-transition: all 0.5s linear;
+     -o-transition: all 0.5s linear;
+     transition: all 0.5s linear;
+}
+.icons-arrow-up-alt1:before {
+    content: "\e000";
 }
 .icons-arrow-left-alt1:before {
     content: "\e001";
 }
+.icons-arrow-left-alt2:before {
+    content: "\e001";
+}
+.icons-arrow-right-alt1:before {
+    content: "\e002";
+}
+.icons-arrow-down-alt1:before {
+    content: "\e003";
+}
+.icons-arrow-up-alt1{
+    color:#fbfbfb;
+    font-size: 2em;
+    padding-left: 20px;
+    display: block;
+}
+.icons-arrow-up-alt1:hover{
+    color:#3498db;
+    text-decoration: none;
+     -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+     -ms-transition: all 0.5s linear;
+     -o-transition: all 0.5s linear;
+     transition: all 0.5s linear;
+}
+.box-visu-types{
+    width: 20%;
+    margin-top: 40px;
+    margin-right: 10px;
+    height: 200px;
+    float: left;
+}
+.visu-list{
+    margin-left: 50px;
+}
+.item-list{
+    list-style: none;
+}
+.box-nav-visu{
+    width: 30%;
+
+}
+.nav-visu{
+    float:left;
+    margin: 5px;
+}
+.icons-arrow-left-alt2, .icons-arrow-right-alt1, .icons-arrow-down-alt1{
+    font-size: 1.8em;
+}
+.text strong{
+line-height: 4em;
+}
+
+
+
+
+
+
+
+
 /*MEDIAS QUERIES*/
 
 @media (max-width: 480px) {
