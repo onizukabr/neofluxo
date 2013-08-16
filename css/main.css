@@ -32,7 +32,16 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'mo2';
+    src:url('fonts/mo2.eot');
+    src:url('fonts/mo2.eot?#iefix') format('embedded-opentype'),
+        url('fonts/mo2.woff') format('woff'),
+        url('fonts/mo2.ttf') format('truetype'),
+        url('fonts/mo2.svg#mo2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 /*FontFace*/
 
 
@@ -326,8 +335,12 @@ text-align: center;
     padding-top: 20px;
     color: #2c3e50;
 }
-.title2{
+.title2,
+.title2-center{
     font-size: 1.5em;
+}
+.title2-center{
+    text-align: center;
 }
 
 .text{
@@ -493,9 +506,37 @@ float: right;
 .text strong{
 line-height: 4em;
 }
-
-
-
+.text-api{
+    font-family: monospace;
+    font-size: 1em;
+}
+.box-api-cadastro{
+    margin-left: 17%;
+}
+.box-code{
+    float: left;
+    width: 200px;
+    height: 600px;
+    padding-top: 100px;
+}
+.icons-code, .icons-code-2 {
+    font-family: 'mo2';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15em;
+    color:#fbfbfb;
+}
+.icons-code:before {
+    content: "\e000";
+}
+.icons-code-2:before {
+    content: "\e001";
+}
 
 
 
@@ -555,6 +596,48 @@ width: 440%;
 height: 500px;
 width: 96%;
 }
+.box-api-cadastro{
+    margin-left: 0%;
+    width: 280px;
+}
+.box-code{
+    float: none;
+    width: 200px;
+    height: 100px;
+    padding-top: 0px;
+    padding-left: 80px;
+}
+.icons-code, .icons-code-2 {
+    font-size: 6em;
+}
+
+.footer{
+    float: left;
+    width: 100%;
+    height: 550px;
+    background: #2c3e50;
+}
+.info-foo{
+    margin-left: 10%;
+}
+.title-foo{
+    font-size: 1em;
+    font-weight: 100;
+}
+.fomento,
+.apoio,
+.realiza,
+.social{
+    width: 80%;
+    color:#fbfbfb;
+    float: none;
+}
+.social{
+    width: 90%;
+    float: left;
+}
+
+
 
 }
 
