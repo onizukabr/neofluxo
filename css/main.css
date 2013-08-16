@@ -222,7 +222,8 @@ textarea {
     padding-bottom: 50px;
 }
 .boxes,
-.boxes2{
+.boxes2,
+.boxes3{
     width: 20%;
     height: 250px;
     background: #3498db;
@@ -235,8 +236,14 @@ textarea {
     width: 20%;
     height: 120px;
 }
+.boxes3{
+    width: 27%;
+    height: 120px;
+    margin-bottom: 50px;
+}
 .boxes:hover,
-.boxes2:hover{
+.boxes2:hover,
+.boxes3:hover{
  background: #2980b9;
  color:#bdc3c7;
  -webkit-transition: all 0.5s linear;
@@ -259,6 +266,7 @@ textarea {
 }
 .sub-title2{
     text-align: left;
+    margin: 0px;
 }
 .icons-newspaper, .icons-book, .icons-stats, .icons-earth, .icons-stats-2, .icons-books {
     font-family: 'moon';
@@ -537,8 +545,16 @@ line-height: 4em;
 .icons-code-2:before {
     content: "\e001";
 }
-
-
+.tabela-dilma{
+    margin-left: 20%;
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+.license {
+width: 100px;
+margin-top: 37px;
+float: right;
+}
 
 
 
@@ -555,7 +571,8 @@ line-height: 4em;
     font-size: 1em;
 }
 .boxes,
-.boxes2{
+.boxes2,
+.boxes3{
     clear: both;
     width: 68%;
     margin-left: 32px;
@@ -614,7 +631,7 @@ width: 96%;
 .footer{
     float: left;
     width: 100%;
-    height: 550px;
+    height: 590px;
     background: #2c3e50;
 }
 .info-foo{
@@ -636,7 +653,12 @@ width: 96%;
     width: 90%;
     float: left;
 }
-
+.tabela-dilma{
+    margin-left: 0%;
+    margin-bottom: 30px;
+    margin-top:30px;
+    width: 100%;
+}
 
 
 }

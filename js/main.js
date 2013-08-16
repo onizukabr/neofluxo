@@ -11,7 +11,7 @@ $(function(){
       $(".team-link").click(function() {
           $(".back-menu").toggleClass("hidden");
         });
-      $(".back-top").click(function() {
+      $(".back-menu").click(function() {
           $(".back-menu").toggleClass("hidden");
         });
 
